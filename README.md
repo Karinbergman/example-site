@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # example-site
 
 ## How to use?
@@ -13,6 +12,3 @@ Gruntfile tweeked with inspiration from https://github.com/viktorbijlenga/grunt-
 
 ### http-server
 Start the server by writing 'http-server'
-=======
-# example
->>>>>>> 0e1c475238ede3179bb99617798f8c967cc80c92
