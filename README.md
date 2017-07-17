@@ -12,8 +12,10 @@ Gruntfile tweeked with inspiration from https://github.com/viktorbijlenga/grunt-
 
 ### http-server
 For http-server to work you need to install it globally:
+
 Installation via npm:
 npm install http-server -g
 
 This will install http-server globally so that it may be run from the command line.
+
 Start the server by writing 'http-server'
