@@ -1,0 +1,33 @@
+#quote {
+  background-color: $light-grey-bg;
+  padding: 50px 0;
+
+  #carouselQuoteControls {
+    .carousel-item {
+      padding: 0 80px;
+    }
+    .carousel-control-next, .carousel-control-prev {
+      width: 5%;
+
+      &:hover {
+        border: none;
+      }
+    }
+  }
+
+  .left-col {
+    &:before {
+      font-family: 'icomoon';
+      @extend .icon-comment-discussion:before;
+      font-size: 100px;
+      border: 3px solid $brand-color-4;
+      padding: 10px 20px;
+      color: $brand-color-4;
+    }
+  }
+  .right-col {
+    padding-top: 5px;
+    font-size: 22px;
+    font-style: italic;
+  }
+}

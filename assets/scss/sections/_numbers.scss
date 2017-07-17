@@ -1,0 +1,22 @@
+#numbers {
+  background-color: $brand-color-4;
+
+  .num-container {
+    margin: 50px;
+    h3 {
+      font-size: 72px;
+      color: $text-color;
+      font-family: $font-family;
+      font-weight: 700;
+      &::after {
+        display: none;
+      }
+    }
+    p {
+      margin: 0;
+      font-size: 14px;
+      text-transform: uppercase;
+      color: $text-color;
+    }
+  }
+}

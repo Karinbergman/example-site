@@ -1,0 +1,15 @@
+#for-all-devices {
+  background-image: url("../../build/images/feature/feature-bg.png");
+  .mockups {
+    position: relative;
+    .tablet {
+      display: block;
+      margin: 0 auto;
+    }
+    .phone {
+      position: absolute;
+      bottom: -40px;
+      right: 197px;
+    }
+  }
+}

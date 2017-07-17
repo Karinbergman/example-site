@@ -1,0 +1,26 @@
+.by {
+  font-family: $font-family-2;
+  color: $text-color-4;
+
+  &:before {
+    height: 2px;
+    display: inline-block;
+    width: 45px;
+    background: #f38181;
+    content: "";
+    margin: 20px 0;
+    position: relative;
+    top: 15px;
+  }
+}
+
+.line {
+  &:after {
+    height: 3px;
+    display: block;
+    width: 60px;
+    background: $brand-color;
+    content: '';
+    margin: 40px auto 40px;
+  }
+}

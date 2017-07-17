@@ -1,0 +1,61 @@
+footer {
+  margin-top: 50px;
+  margin-bottom: 60px;
+  h4 {
+    text-align: left;
+  }
+  p {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  .followers {
+    span {
+      font-weight: 700;
+    }
+    border-bottom: 2px solid;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  .follow-us {
+    h5 {
+      text-align: left;
+    }
+    ul {
+      padding-left: 0;
+      list-style-type: none;
+      li {
+        display: inline-block;
+        > a {
+          color: black;
+
+          &.facebook, &.twitter, &.instagram, &.pinterest, &.googleplus, &.youtube, &.tumblr {
+            &:before {
+              font-family: 'icomoon';
+            }
+          }
+          &.facebook:before {
+            @extend .icon-facebook:before;
+          }
+          &.twitter:before {
+            @extend .icon-twitter:before;
+          }
+          &.instagram:before {
+            @extend .icon-instagram:before;
+          }
+          &.pinterest:before {
+            @extend .icon-pinterest:before;
+          }
+          &.googleplus:before {
+            @extend .icon-google-plus:before;
+          }
+          &.youtube:before {
+            @extend .icon-youtube:before;
+          }
+          &.tumblr:before {
+            @extend .icon-tumblr:before;
+          }
+        }
+      }
+    }
+  }
+}

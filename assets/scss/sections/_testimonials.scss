@@ -1,0 +1,27 @@
+#testimonials {
+  margin-bottom: 80px;
+  #carouselTestiControls {
+    .carousel-item {
+      padding: 0 80px;
+    }
+    .carousel-control-next, .carousel-control-prev {
+      width: 5%;
+
+      &:hover {
+        border: none;
+      }
+    }
+  }
+
+  .left-col {
+    img {
+      border-radius: 50%;
+    }
+  }
+  .right-col {
+    padding-top: 5px;
+    font-size: 20px;
+    font-style: italic;
+    color: $text-color-3;
+  }
+}

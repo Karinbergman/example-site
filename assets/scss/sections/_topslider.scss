@@ -1,0 +1,42 @@
+.top-slider {
+  clear: both;
+
+  #carouselTopSliderIndicators {
+    .carousel-inner {
+      .carousel-item {
+        img {
+          width: 100%;
+        }
+        .carousel-caption {
+          bottom: 30%;
+
+          span {
+            font-family: $font-family-2;
+            font-size: 30px;
+
+            @media (min-width: 992px) and (max-width: 1199px) {
+              font-size: 30px;
+            }
+          }
+
+          h3 {
+            font-size: 70px;
+            width: 50%;
+            margin: 0 auto;
+
+            &:after {
+              background: $text-color;
+            }
+
+            @media (min-width: 992px) and (max-width: 1199px) {
+              font-size: 70px;
+            }
+            @media (max-width: 768px) {
+              font-size: 50px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

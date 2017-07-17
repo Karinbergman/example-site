@@ -1,0 +1,16 @@
+.btn {
+  border-radius: 0;
+}
+
+.btn-primary {
+  background-color: transparent;
+  border-color: #FFF;
+  text-transform: uppercase;
+  border-width: 2px;
+  padding: 5px 20px;
+  font-weight: 600;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

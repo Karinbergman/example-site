@@ -1,0 +1,60 @@
+#service {
+  margin-bottom: 100px;
+  #accordion {
+    .card {
+      .card-header {
+        background-color: transparent;
+
+        h5 {
+          text-align: left;
+          font-size: 14px;
+
+          a {
+            color: #000;
+
+            &:hover {
+              border: none;
+            }
+
+            .photography, .creativity, .web-design {
+              position: relative;
+              top: -5px;
+
+              &:before {
+                font-family: 'icomoon';
+                color: $brand-color-4;
+                font-size: 25px;
+                padding-right: 10px;
+                position: relative;
+                top: 5px;
+              }
+            }
+
+            .photography::before {
+              @extend .icon-image:before;
+            }
+            .creativity::before {
+              @extend .icon-comment-discussion:before;
+            }
+            .web-design::before {
+              @extend .icon-target:before;
+            }
+
+            &:hover {
+              text-decoration: none;
+              color: #000;
+            }
+
+            &:focus {
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+    .card-block {
+      overflow: auto;
+      height: 195px;
+    }
+  }
+}

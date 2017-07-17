@@ -1,0 +1,18 @@
+#who-we-are {
+  .team-container {
+    text-align: center;
+    .description {
+      margin-top: 25px;
+      h5 {
+        font-size: 14px;
+        text-transform: uppercase;
+      }
+      p {
+        font-size: 15px;
+        font-family: $font-family-3;
+        font-style: italic;
+        color: $text-color-3;
+      }
+    }
+  }
+}

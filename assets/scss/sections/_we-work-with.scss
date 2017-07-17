@@ -1,0 +1,54 @@
+#we-work-with {
+  .service-container {
+    padding-left: 40px;
+
+    h5 {
+      font-size: 15px;
+    }
+
+    h5, p {
+      text-align: left;
+    }
+
+    &.photography, &.web-design, &.creativity, &.seo, &.css-html, &.digital {
+      &::before {
+        font-family: 'icomoon';
+        position: absolute;
+        left: 0;
+        font-size: 30px;
+        color: $brand-color-4;
+      }
+    }
+
+    &.photography {
+      &::before {
+        @extend .icon-alarm:before;
+      }
+    }
+    &.web-design {
+      &::before {
+        @extend .icon-graphics:before;
+      }
+    }
+    &.creativity {
+      &::before {
+        @extend .icon-pc:before;
+      }
+    }
+    &.seo {
+      &::before {
+        @extend .icon-newspaper:before;
+      }
+    }
+    &.css-html {
+      &::before {
+        @extend .icon-house:before;
+      }
+    }
+    &.digital {
+      &::before {
+        @extend .icon-overscan:before;
+      }
+    }
+  }
+}
